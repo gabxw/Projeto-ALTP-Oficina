@@ -1,0 +1,8 @@
+C:\Users\Aluno_Manha\Documents\SharpDevelop Projects\SAZUDA\SAZUDA\bin\Debug\SAZUDA.exe.config
+C:\Users\Aluno_Manha\Documents\SharpDevelop Projects\SAZUDA\SAZUDA\bin\Debug\SAZUDA.exe
+C:\Users\Aluno_Manha\Documents\SharpDevelop Projects\SAZUDA\SAZUDA\bin\Debug\SAZUDA.pdb
+C:\Users\Aluno_Manha\Documents\SharpDevelop Projects\SAZUDA\SAZUDA\obj\Debug\SAZUDA.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_Manha\Documents\SharpDevelop Projects\SAZUDA\SAZUDA\obj\Debug\SAZUDA.MainForm.resources
+C:\Users\Aluno_Manha\Documents\SharpDevelop Projects\SAZUDA\SAZUDA\obj\Debug\SAZUDA.csproj.GenerateResource.Cache
+C:\Users\Aluno_Manha\Documents\SharpDevelop Projects\SAZUDA\SAZUDA\obj\Debug\SAZUDA.exe
+C:\Users\Aluno_Manha\Documents\SharpDevelop Projects\SAZUDA\SAZUDA\obj\Debug\SAZUDA.pdb
