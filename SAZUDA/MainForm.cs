@@ -46,10 +46,10 @@ namespace SAZUDA
 		}
 		void BtnLoginClick(object sender, EventArgs e)
 		{
-			    MainForm mainForm = new MainForm(); // Cria a nova janela
-    			mainForm.Show(); // Exibe a nova janela
-    			this.Hide(); // Esconde a tela de login
-		}
+            CadastroForm cadastro = new CadastroForm(); // Criando uma instância do novo formulário
+            cadastro.Show(); // Exibindo a nova tela
+            this.Hide(); // Ocultando a tela de login
+        }
 
 	}
 }

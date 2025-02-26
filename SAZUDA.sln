@@ -1,7 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-# SharpDevelop 5.1
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAZUDA", "SAZUDA\SAZUDA.csproj", "{F661AFA2-A4A7-4AFA-8486-C53CD2EDDFE8}"
 EndProject
 Global
@@ -14,5 +15,11 @@ Global
 		{F661AFA2-A4A7-4AFA-8486-C53CD2EDDFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F661AFA2-A4A7-4AFA-8486-C53CD2EDDFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F661AFA2-A4A7-4AFA-8486-C53CD2EDDFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9D015A2-6C54-47CC-87C3-42CDE3B77E85}
 	EndGlobalSection
 EndGlobal
