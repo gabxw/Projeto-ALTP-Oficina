@@ -216,9 +216,16 @@ namespace SAZUDA
         {
             MostrarControles();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            MainForm mainform = new MainForm(); // Criando uma instância do novo formulário
+            mainform.Show(); // Exibindo a nova tela
+            this.Hide();
+        }
     }
 
-    // Classe de validação de CPF (reutilizada do exemplo anterior)
+    // Classe de validação de CPF 
     public class ValidadorCPF
     {
         public static bool Validar(string cpf)

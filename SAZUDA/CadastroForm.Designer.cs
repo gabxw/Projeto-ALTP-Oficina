@@ -40,6 +40,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblCadNovoCLiente = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnVoltar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,7 +99,7 @@
             // 
             this.mskCEP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(89)))));
             this.mskCEP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.mskCEP.Location = new System.Drawing.Point(672, 279);
+            this.mskCEP.Location = new System.Drawing.Point(678, 279);
             this.mskCEP.Mask = "00000-000";
             this.mskCEP.Name = "mskCEP";
             this.mskCEP.Size = new System.Drawing.Size(171, 13);
@@ -109,7 +110,7 @@
             // 
             this.mskTelefone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(89)))));
             this.mskTelefone.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.mskTelefone.Location = new System.Drawing.Point(672, 234);
+            this.mskTelefone.Location = new System.Drawing.Point(676, 234);
             this.mskTelefone.Mask = "(00) 00000-0000";
             this.mskTelefone.Name = "mskTelefone";
             this.mskTelefone.Size = new System.Drawing.Size(173, 13);
@@ -120,21 +121,26 @@
             // 
             this.mskCPF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(89)))));
             this.mskCPF.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.mskCPF.Location = new System.Drawing.Point(460, 368);
+            this.mskCPF.Location = new System.Drawing.Point(469, 368);
             this.mskCPF.Mask = "000.000.000-00";
             this.mskCPF.Name = "mskCPF";
-            this.mskCPF.Size = new System.Drawing.Size(171, 13);
+            this.mskCPF.Size = new System.Drawing.Size(164, 13);
             this.mskCPF.TabIndex = 7;
             this.mskCPF.TextChanged += new System.EventHandler(this.mskCPF_TextChanged);
             // 
             // btnCadastrar
             // 
+            this.btnCadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
+            this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCadastrar.Font = new System.Drawing.Font("Dubai", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnCadastrar.Location = new System.Drawing.Point(582, 502);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(139, 48);
             this.btnCadastrar.TabIndex = 8;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // pictureBox2
@@ -154,10 +160,11 @@
             this.lblCadNovoCLiente.AutoSize = true;
             this.lblCadNovoCLiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.lblCadNovoCLiente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblCadNovoCLiente.Font = new System.Drawing.Font("Dubai", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCadNovoCLiente.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.lblCadNovoCLiente.Location = new System.Drawing.Point(37, 162);
+            this.lblCadNovoCLiente.Location = new System.Drawing.Point(27, 154);
             this.lblCadNovoCLiente.Name = "lblCadNovoCLiente";
-            this.lblCadNovoCLiente.Size = new System.Drawing.Size(113, 13);
+            this.lblCadNovoCLiente.Size = new System.Drawing.Size(130, 22);
             this.lblCadNovoCLiente.TabIndex = 11;
             this.lblCadNovoCLiente.Text = "Cadastrar novo cliente";
             this.lblCadNovoCLiente.Click += new System.EventHandler(this.lblCadNovoCliente_Click);
@@ -173,12 +180,28 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "consultar";
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(89)))));
+            this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnVoltar.Font = new System.Drawing.Font("Dubai", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnVoltar.Location = new System.Drawing.Point(31, 550);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(119, 39);
+            this.btnVoltar.TabIndex = 13;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // CadastroForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SAZUDA.Properties.Resources.telaHome;
             this.ClientSize = new System.Drawing.Size(1114, 614);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblCadNovoCLiente);
             this.Controls.Add(this.btnCadastrar);
@@ -214,5 +237,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblCadNovoCLiente;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }
