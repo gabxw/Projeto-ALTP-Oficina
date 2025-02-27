@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SAZUDA"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\SAZUDA.sln",
+=======
+  "SelectedNode": "\\SAZUDA\\MainForm.cs",
+>>>>>>> 5f9756
   "PreviewInSolutionExplorer": false
 }

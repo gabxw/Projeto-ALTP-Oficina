@@ -63,6 +63,19 @@ namespace SAZUDA.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap Cadastro_1_ {
+            get {
+                object obj = ResourceManager.GetObject("Cadastro(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> 5f9756
         internal static System.Drawing.Bitmap planodefundoCadastro {
             get {
                 object obj = ResourceManager.GetObject("planodefundoCadastro", resourceCulture);
@@ -99,5 +112,18 @@ namespace SAZUDA.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+<<<<<<< HEAD
+=======
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap telaHome {
+            get {
+                object obj = ResourceManager.GetObject("telaHome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+>>>>>>> 5f9756
     }
 }

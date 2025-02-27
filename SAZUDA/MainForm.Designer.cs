@@ -63,6 +63,7 @@ namespace SAZUDA
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(198, 20);
             this.textBox2.TabIndex = 1;
+<<<<<<< HEAD
             // 
             // BtnLogin
             // 
@@ -74,6 +75,24 @@ namespace SAZUDA
             this.BtnLogin.Size = new System.Drawing.Size(120, 43);
             this.BtnLogin.TabIndex = 2;
             this.BtnLogin.UseVisualStyleBackColor = true;
+=======
+            this.textBox2.UseSystemPasswordChar = true;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // BtnLogin
+            // 
+            this.BtnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
+            this.BtnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtnLogin.Font = new System.Drawing.Font("Dubai", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLogin.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BtnLogin.Location = new System.Drawing.Point(153, 384);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.Size = new System.Drawing.Size(132, 45);
+            this.BtnLogin.TabIndex = 2;
+            this.BtnLogin.Text = "Login";
+            this.BtnLogin.UseVisualStyleBackColor = false;
+>>>>>>> 5f9756
             this.BtnLogin.Click += new System.EventHandler(this.BtnLoginClick);
             // 
             // MainForm

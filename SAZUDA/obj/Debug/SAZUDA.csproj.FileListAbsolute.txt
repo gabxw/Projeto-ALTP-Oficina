@@ -17,3 +17,17 @@ C:\Users\Aluno_Manha\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SA
 C:\Users\Aluno_Manha\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.pdb
 C:\Users\Aluno_Manha\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.CadastroForm.resources
 C:\Users\Aluno_Manha\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.Properties.Resources.resources
+<<<<<<< HEAD
+=======
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.csproj.AssemblyReference.cache
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.CadastroForm.resources
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.MainForm.resources
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.Properties.Resources.resources
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.csproj.GenerateResource.cache
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\bin\Debug\SAZUDA.exe.config
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\bin\Debug\SAZUDA.exe
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\bin\Debug\SAZUDA.pdb
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.exe
+C:\Users\gabriel\source\repos\gabxw\Projeto-ALTP-Oficina\SAZUDA\obj\Debug\SAZUDA.pdb
+>>>>>>> 5f9756
