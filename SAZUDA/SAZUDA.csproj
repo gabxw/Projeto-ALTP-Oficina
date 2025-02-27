@@ -89,6 +89,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
@@ -103,6 +104,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\planodefundoCerto3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cadastro%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cadastro%281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telaHome.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

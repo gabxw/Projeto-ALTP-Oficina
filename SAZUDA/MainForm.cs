@@ -18,7 +18,10 @@ namespace SAZUDA
 	/// </summary>
 	public partial class MainForm : Form
 	{
-		public MainForm()
+        public string ID { get; set; }
+        public string senha { get; set; }
+
+        public MainForm()
 		{
 
 			InitializeComponent();		
@@ -34,13 +37,13 @@ namespace SAZUDA
 		}
 		void TextBox1TextChanged(object sender, EventArgs e)
 		{
-	
+			ID = textBox1.Text;
 		}
-		void TextBox2TextChanged(object sender, EventArgs e)
-		{
-	
-		}
-		void MainFormLoad(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            senha = textBox2.Text;
+        }
+        void MainFormLoad(object sender, EventArgs e)
 		{
 	
 		}
@@ -51,5 +54,8 @@ namespace SAZUDA
             this.Hide(); // Ocultando a tela de login
         }
 
-	}
+
+
+        
+    }
 }
