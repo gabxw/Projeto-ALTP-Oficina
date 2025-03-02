@@ -8,7 +8,7 @@
  */
 namespace SAZUDA
 {
-	partial class MainForm
+	partial class TelaLogin
 	{
 		/// <summary>
 		/// Designer variable used to keep track of non-visual components.
@@ -39,7 +39,7 @@ namespace SAZUDA
 		/// </summary>
 		private void InitializeComponent()
 		{
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaLogin));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.BtnLogin = new System.Windows.Forms.Button();

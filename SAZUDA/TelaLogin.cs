@@ -8,12 +8,12 @@ namespace SAZUDA
     /// <summary>
     /// Description of MainForm.
     /// </summary>
-    public partial class MainForm : Form
+    public partial class TelaLogin : Form
     {
         public string ID { get; set; }
         public string senha { get; set; }
 
-        public MainForm()
+        public TelaLogin()
         {
             InitializeComponent();
         }
@@ -45,15 +45,16 @@ namespace SAZUDA
 
         void BtnLoginClick(object sender, EventArgs e)
         {
-            if (ID != "13042006" || senha != "teste123")
+            if (ID == "13042006" || senha == "teste123")
             {
-                MessageBox.Show("O id ou a senha está errado!");
+
+               
+                this.Hide(); // Ocultando a tela de login
+                
             }
             else
             {
-                CadastroForm cadastro = new CadastroForm(); // Criando uma instância do novo formulário
-                cadastro.Show(); // Exibindo a nova tela
-                this.Hide(); // Ocultando a tela de login
+                MessageBox.Show("O id ou a senha está errado!");
             }
         }
     }
