@@ -1,60 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SAZUDA
 {
-    /// <summary>
-    /// Description of MainForm.
-    /// </summary>
     public partial class TelaLogin : Form
     {
-        public string ID { get; set; }
-        public string senha { get; set; }
+
+        public string Usuario { get; set; }
+        public string Senha { get; set; }
 
         public TelaLogin()
         {
             InitializeComponent();
         }
 
-        void Label1Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
-        void PictureBox1Click(object sender, EventArgs e)
+        private void LinhaUsuario_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        void TextBox1TextChanged(object sender, EventArgs e)
+        private void IdUsuario_TextChanged(object sender, EventArgs e)
         {
-            ID = textBox1.Text;
+            Usuario = IdUsuario.Text;
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void IdSenha_TextChanged(object sender, EventArgs e)
         {
-            senha = textBox2.Text;
+            Senha = IdSenha.Text.Replace("*", "").Replace("_", "").Trim().Replace(" ", "");
         }
 
-        void MainFormLoad(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
+            string loginTemporario = "13042006";
+            string senhaTemporaria = "teste123";
 
-        }
-
-        void BtnLoginClick(object sender, EventArgs e)
-        {
-            if (ID == "13042006" || senha == "teste123")
+            if (Usuario != loginTemporario && Senha != senhaTemporaria)
             {
-
-               
-                this.Hide(); // Ocultando a tela de login
+                MessageBox.Show("O id ou a senha está incorreto!");
                 
             }
             else
             {
-                MessageBox.Show("O id ou a senha está errado!");
+                TelaHome telaHome = new TelaHome(this); // Passa a instância atual de TelaLogin
+                telaHome.Show();
+                this.Hide(); // Esconde TelaLogin
             }
         }
     }

@@ -45,12 +45,28 @@ namespace SAZUDA
             ConfigurarPlaceholder(txtSegundoEmail, "Digite o segundo email");
             ConfigurarPlaceholder(txtCidade, "Digite sua cidade");
             ConfigurarPlaceholder(txtEstado, "Digite seu estado");
+            ConfigurarPlaceholder(txtCpfCliente, "Digite seu CPF");
+            ConfigurarPlaceholder(txtTelefone, "Digite seu telefone");
+            ConfigurarPlaceholder(txtCep, "Digite seu CEP");
+            ConfigurarPlaceholder(linhaNome, "___________________________");
+            ConfigurarPlaceholder(linhaEmail, "___________________________");
+            ConfigurarPlaceholder(linhaEmailSec, "___________________________");
+            ConfigurarPlaceholder(linhaCpf, "___________________________");
+            ConfigurarPlaceholder(linhaCep, "___________________________");
+            ConfigurarPlaceholder(linhaTelefone, "___________________________");
+            ConfigurarPlaceholder(linhaCidade, "___________________________");
+            ConfigurarPlaceholder(linhaEstado, "___________________________");
             //Carro
-            ConfigurarPlaceholder(TxtIdCliente, "Insira o código Id passado.");
+            ConfigurarPlaceholder(TxtIdCliente, "Insira o cpf do cliente.");
             ConfigurarPlaceholder(TxtMarcaCarro, "Digite a marca do carro.");
             ConfigurarPlaceholder(TxtModeloCarro, "Digite o modelo do carro.");
             ConfigurarPlaceholder(TxtPlacaCarro, "Digite a placa do carro.");
             ConfigurarPlaceholder(TxtDescricaoProblema, "Digite o prolema do carro.");
+            ConfigurarPlaceholder(LinhaIdCarro, "___________________________");
+            ConfigurarPlaceholder(linhaMarca, "___________________________");
+            ConfigurarPlaceholder(linhaModelo, "___________________________");
+            ConfigurarPlaceholder(linhaPlaca, "___________________________");
+
 
         }
         private void CadastroControl_Load(object sender, EventArgs e)
@@ -98,20 +114,19 @@ namespace SAZUDA
             SegundoEmail = txtSegundoEmail.Text;
         }
 
-        private void mskCPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        private void txtCpfCliente_TextChanged(object sender, EventArgs e)
         {
-            CPF = mskCPF.Text.Replace(".", "").Replace("-", "");    
+            string cleanCPF = txtCpfCliente.Text.Replace(".", "").Replace("-", "").Trim();
+            if (cleanCPF.Length == 11 && cleanCPF.All(char.IsDigit)) // Verifica se tem 11 dígitos e só números
+            {
+                CPF = cleanCPF; // Atualiza a propriedade CPF com o valor limpo
+            }
+            else
+            {
+                CPF = null;
+            }
         }
 
-        private void mskTelefone_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-            Telefone = mskTelefone.Text.Replace("(", "").Replace(")", "").Replace(" ", "").Replace("-", "");
-        }
-
-        private void mskCEP_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-            CEP = mskCEP.Text.Replace("-", "");
-        }
 
         private void txtCidade_TextChanged_1(object sender, EventArgs e)
         {
@@ -213,10 +228,7 @@ namespace SAZUDA
             {
                 if (ValidarCamposCLiente())
                 {
-                    Random random = new Random();
-                    int NumeroCliente = random.Next(1000, 1000000);
-
-                    MessageBox.Show($"Cliente cadastrado com sucesso!\n O número de identificação do cliente: {NumeroCliente}");
+                    MessageBox.Show($"Cliente cadastrado com sucesso!\nUse o cpf do cliente como identificação para cadastrar um novo carro!");
                     LimparCampos();
                 }
             }
@@ -234,9 +246,9 @@ namespace SAZUDA
             txtSegundoEmail.Clear();
             txtCidade.Clear();
             txtEstado.Clear();
-            mskCEP.Clear();
-            mskTelefone.Clear();
-            mskCPF.Clear();
+            txtCep.Clear();
+            txtTelefone.Clear();
+            txtCpfCliente.Clear();
         }
         private void BtnCadastroCarro_Click(object sender, EventArgs e)
         {
@@ -246,6 +258,65 @@ namespace SAZUDA
                 LimparCampos();
             }
             
+        }
+
+        private void linhaNome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linhaEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TabCliente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linhaCpf_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linhaCidade_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linhaEstado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LinhaIdCarro_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void linhaModelo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTelefone_TextChanged(object sender, EventArgs e)
+        {
+            Telefone = txtTelefone.Text.Replace("(", "").Replace(")", "").Replace(" ", "").Replace("-", "");
+        }
+
+        private void linhaTelefone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCep_TextChanged(object sender, EventArgs e)
+        {
+            CEP = txtCep.Text.Replace("-", "");
+        }
+
+        private void linhaCep_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

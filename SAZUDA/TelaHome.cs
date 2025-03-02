@@ -12,6 +12,22 @@ namespace SAZUDA
 {
     public partial class TelaHome: Form
     {
+            private TelaLogin telaLogin; 
+
+            public TelaHome(TelaLogin parentForm)
+            {
+                InitializeComponent();
+                this.telaLogin = parentForm;
+                this.FormClosed += new FormClosedEventHandler(TelaHome_FormClosed); // Associa o evento
+            }
+
+            private void TelaHome_FormClosed(object sender, FormClosedEventArgs e)
+            {
+                if (telaLogin != null)
+                {
+                    telaLogin.Close(); // Fecha TelaLogin quando TelaHome é fechado
+                }
+            }
         public TelaHome()
         {
             InitializeComponent();
@@ -95,6 +111,12 @@ namespace SAZUDA
             TelaLogin mainform = new TelaLogin(); // Criando uma instância do novo formulário
             mainform.Show(); // Exibindo a nova tela
             this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            TelaLogin telaLogin = new TelaLogin();
+            label4.Text = telaLogin.Usuario;
         }
     }
 }

@@ -43,12 +43,12 @@
             this.BtnCadastrar = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.CadastrarControl = new SAZUDA.CadastroControl();
+            this.consultar1 = new SAZUDA.Consultar();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.consultar1 = new SAZUDA.Consultar();
-            this.CadastrarControl = new SAZUDA.CadastroControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -242,6 +242,40 @@
             this.panel2.Size = new System.Drawing.Size(1156, 640);
             this.panel2.TabIndex = 1;
             // 
+            // CadastrarControl
+            // 
+            this.CadastrarControl.CEP = null;
+            this.CadastrarControl.Cidade = null;
+            this.CadastrarControl.CPF = null;
+            this.CadastrarControl.Descricao = null;
+            this.CadastrarControl.Email = null;
+            this.CadastrarControl.Endereco = null;
+            this.CadastrarControl.Estado = null;
+            this.CadastrarControl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
+            this.CadastrarControl.ID = "Insira o código Id passado.";
+            this.CadastrarControl.Location = new System.Drawing.Point(3, 0);
+            this.CadastrarControl.Marca = null;
+            this.CadastrarControl.Modelo = null;
+            this.CadastrarControl.Name = "CadastrarControl";
+            this.CadastrarControl.Nome = null;
+            this.CadastrarControl.Placa = null;
+            this.CadastrarControl.ProblemaRelatado = null;
+            this.CadastrarControl.SegundoEmail = null;
+            this.CadastrarControl.Size = new System.Drawing.Size(1144, 634);
+            this.CadastrarControl.TabIndex = 0;
+            this.CadastrarControl.Telefone = null;
+            this.CadastrarControl.Load += new System.EventHandler(this.CadastrarControl_Load);
+            // 
+            // consultar1
+            // 
+            this.consultar1.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.consultar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
+            this.consultar1.Location = new System.Drawing.Point(3, 3);
+            this.consultar1.Name = "consultar1";
+            this.consultar1.Size = new System.Drawing.Size(1153, 637);
+            this.consultar1.TabIndex = 1;
+            this.consultar1.Load += new System.EventHandler(this.consultar1_Load);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -284,40 +318,7 @@
             this.label4.Size = new System.Drawing.Size(40, 16);
             this.label4.TabIndex = 5;
             this.label4.Text = "label4";
-            // 
-            // consultar1
-            // 
-            this.consultar1.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.consultar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
-            this.consultar1.Location = new System.Drawing.Point(3, 3);
-            this.consultar1.Name = "consultar1";
-            this.consultar1.Size = new System.Drawing.Size(1153, 637);
-            this.consultar1.TabIndex = 1;
-            this.consultar1.Load += new System.EventHandler(this.consultar1_Load);
-            // 
-            // CadastrarControl
-            // 
-            this.CadastrarControl.CEP = null;
-            this.CadastrarControl.Cidade = null;
-            this.CadastrarControl.CPF = null;
-            this.CadastrarControl.Descricao = null;
-            this.CadastrarControl.Email = null;
-            this.CadastrarControl.Endereco = null;
-            this.CadastrarControl.Estado = null;
-            this.CadastrarControl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
-            this.CadastrarControl.ID = "Insira o código Id passado.";
-            this.CadastrarControl.Location = new System.Drawing.Point(3, 0);
-            this.CadastrarControl.Marca = null;
-            this.CadastrarControl.Modelo = null;
-            this.CadastrarControl.Name = "CadastrarControl";
-            this.CadastrarControl.Nome = null;
-            this.CadastrarControl.Placa = null;
-            this.CadastrarControl.ProblemaRelatado = null;
-            this.CadastrarControl.SegundoEmail = null;
-            this.CadastrarControl.Size = new System.Drawing.Size(1144, 634);
-            this.CadastrarControl.TabIndex = 0;
-            this.CadastrarControl.Telefone = null;
-            this.CadastrarControl.Load += new System.EventHandler(this.CadastrarControl_Load);
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // TelaHome
             // 

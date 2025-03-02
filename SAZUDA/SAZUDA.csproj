@@ -64,17 +64,17 @@
     <Compile Include="Consultar.Designer.cs">
       <DependentUpon>Consultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaHome.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TelaHome.Designer.cs">
-      <DependentUpon>TelaHome.cs</DependentUpon>
-    </Compile>
     <Compile Include="TelaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TelaLogin.Designer.cs">
       <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaHome.Designer.cs">
+      <DependentUpon>TelaHome.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,11 +100,11 @@
     <EmbeddedResource Include="Consultar.resx">
       <DependentUpon>Consultar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaHome.resx">
-      <DependentUpon>TelaHome.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaHome.resx">
+      <DependentUpon>TelaHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -153,6 +153,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo100x1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_car-repair_wski.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem-tela-de-login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

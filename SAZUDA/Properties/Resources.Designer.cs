@@ -123,6 +123,16 @@ namespace SAZUDA.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagem_tela_de_login {
+            get {
+                object obj = ResourceManager.GetObject("imagem-tela-de-login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo100x100 {
             get {
                 object obj = ResourceManager.GetObject("logo100x100", resourceCulture);
@@ -186,6 +196,16 @@ namespace SAZUDA.Properties {
         internal static System.Drawing.Bitmap telaHome {
             get {
                 object obj = ResourceManager.GetObject("telaHome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap undraw_car_repair_wski {
+            get {
+                object obj = ResourceManager.GetObject("undraw_car-repair_wski", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
