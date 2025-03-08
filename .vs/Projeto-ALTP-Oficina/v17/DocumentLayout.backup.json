@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabriel\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\TelaHome2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TelaHome2\\TelaHome2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TelaHome2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TelaHome2\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +55,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\Program.cs",
+              "RelativeDocumentMoniker": "TelaHome2\\Program.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\Program.cs",
+              "RelativeToolTip": "TelaHome2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:14:57.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\Form1.cs",
+              "RelativeDocumentMoniker": "TelaHome2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\Form1.cs",
+              "RelativeToolTip": "TelaHome2\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:14:54.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TelaHome2.csproj",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\TelaHome2.csproj",
+              "RelativeDocumentMoniker": "TelaHome2\\TelaHome2.csproj",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\gabxw\\Projeto-ALTP-Oficina\\TelaHome2\\TelaHome2.csproj",
+              "RelativeToolTip": "TelaHome2\\TelaHome2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-08T22:14:34.623Z",
+              "EditorCaption": ""
             }
           ]
         }

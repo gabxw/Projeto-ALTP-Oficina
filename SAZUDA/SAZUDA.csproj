@@ -50,7 +50,6 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Drawing" />
-    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
@@ -58,23 +57,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consultar.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Consultar.Designer.cs">
-      <DependentUpon>Consultar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TelaLogin.cs">
+    <Compile Include="CadastroForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaLogin.Designer.cs">
-      <DependentUpon>TelaLogin.cs</DependentUpon>
+    <Compile Include="CadastroForm.Designer.cs">
+      <DependentUpon>CadastroForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaHome.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaHome.Designer.cs">
-      <DependentUpon>TelaHome.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,32 +76,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Cadastro.Designer.cs">
-      <DependentUpon>Cadastro.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Cadastro.resx">
-      <DependentUpon>Cadastro.cs</DependentUpon>
+    <EmbeddedResource Include="CadastroForm.resx">
+      <DependentUpon>CadastroForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consultar.resx">
-      <DependentUpon>Consultar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TelaLogin.resx">
-      <DependentUpon>TelaLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TelaHome.resx">
-      <DependentUpon>TelaHome.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+<<<<<<< HEAD
+=======
       <SubType>Designer</SubType>
+>>>>>>> 5f9756
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
@@ -123,6 +107,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\planodefundoCerto3.png" />
+<<<<<<< HEAD
+=======
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Cadastro%281%29.png" />
@@ -132,33 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\telaHome.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo100x100.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-caminhão-80.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-caminhão-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-close-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-pesquisar-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-plus-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo100x1001.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\undraw_car-repair_wski.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\imagem-tela-de-login.png" />
+>>>>>>> 5f9756
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
