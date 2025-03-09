@@ -14,6 +14,7 @@ namespace SAZUDA
 {
     public partial class MecanicoControl : UserControl
     {
+        private Timer timerAtualiza;
         public MecanicoControl()
         {
             InitializeComponent();
@@ -22,8 +23,17 @@ namespace SAZUDA
             panelAceite.Visible = false;
             panelRecusa.Visible = false;
             CarregarDemandas();
+            // Configura o Timer para atualizar a cada 5 segundos (5000 milissegundos)
+            timerAtualiza = new Timer();
+            timerAtualiza.Interval = 5000;
+            timerAtualiza.Tick += TimerAtualiza_Tick;
+            timerAtualiza.Start();
         }
 
+        private void TimerAtualiza_Tick(object sender, EventArgs e)
+        {
+            CarregarDemandas();
+        }
 
         // Configura o DataGridView (supondo que o nome no Designer seja dgvDemandas)
         private void ConfigurarDataGridView()
