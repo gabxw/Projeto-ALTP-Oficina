@@ -76,11 +76,6 @@ namespace SAZUDA
             this.Hide();
         }
 
-        private void BtnFornecedor_Click(object sender, EventArgs e)
-        {
-            MoveSidePanel(BtnFornecedor);
-        }
-
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
@@ -117,6 +112,16 @@ namespace SAZUDA
         {
             TelaLogin telaLogin = new TelaLogin();
             label4.Text = telaLogin.Usuario;
+        }
+        private void BtnMecanico_Click_1(object sender, EventArgs e)
+        {
+            MoveSidePanel(BtnMecanico);
+            mecanicoControl1.BringToFront();
+        }
+
+        private void mecanicoControl1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

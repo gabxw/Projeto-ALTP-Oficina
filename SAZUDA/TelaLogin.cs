@@ -44,8 +44,8 @@ namespace SAZUDA
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string loginTemporario = "13042006";
-            string senhaTemporaria = "teste123";
+            string loginTemporario = "123";
+            string senhaTemporaria = "123";
 
             if (Usuario != loginTemporario && Senha != senhaTemporaria)
             {
