@@ -51,17 +51,11 @@ namespace SAZUDA
             ConfigurarPlaceholder(txtSegundoEmail, "Digite o segundo email");
             ConfigurarPlaceholder(txtCidade, "Digite sua cidade");
             ConfigurarPlaceholder(txtEstado, "Digite seu estado");
+            ConfigurarPlaceholder(txtTelefone, "Digite seu telefone");
             ConfigurarPlaceholder(txtCpfCliente, "Digite seu CPF");
             ConfigurarPlaceholder(txtTelefone, "Digite seu telefone");
             ConfigurarPlaceholder(txtCep, "Digite seu CEP");
-            ConfigurarPlaceholder(linhaNome, "___________________________");
-            ConfigurarPlaceholder(linhaEmail, "___________________________");
-            ConfigurarPlaceholder(linhaEmailSec, "___________________________");
-            ConfigurarPlaceholder(linhaCpf, "___________________________");
-            ConfigurarPlaceholder(linhaCep, "___________________________");
-            ConfigurarPlaceholder(linhaTelefone, "___________________________");
-            ConfigurarPlaceholder(linhaCidade, "___________________________");
-            ConfigurarPlaceholder(linhaEstado, "___________________________");
+
 
             // ----------------------------
             // PLACEHOLDERS (CARRO)
@@ -71,10 +65,7 @@ namespace SAZUDA
             ConfigurarPlaceholder(TxtModeloCarro, "Digite o modelo do carro.");
             ConfigurarPlaceholder(TxtPlacaCarro, "Digite a placa do carro.");
             ConfigurarPlaceholder(TxtDescricaoProblema, "Digite o problema do carro.");
-            ConfigurarPlaceholder(LinhaIdCarro, "___________________________");
-            ConfigurarPlaceholder(linhaMarca, "___________________________");
-            ConfigurarPlaceholder(linhaModelo, "___________________________");
-            ConfigurarPlaceholder(linhaPlaca, "___________________________");
+
         }
 
         // ==========================
@@ -416,24 +407,14 @@ namespace SAZUDA
             ConfigurarPlaceholder(txtCpfCliente, "Digite seu CPF");
             ConfigurarPlaceholder(txtTelefone, "Digite seu telefone");
             ConfigurarPlaceholder(txtCep, "Digite seu CEP");
-            ConfigurarPlaceholder(linhaNome, "___________________________");
-            ConfigurarPlaceholder(linhaEmail, "___________________________");
-            ConfigurarPlaceholder(linhaEmailSec, "___________________________");
-            ConfigurarPlaceholder(linhaCpf, "___________________________");
-            ConfigurarPlaceholder(linhaCep, "___________________________");
-            ConfigurarPlaceholder(linhaTelefone, "___________________________");
-            ConfigurarPlaceholder(linhaCidade, "___________________________");
-            ConfigurarPlaceholder(linhaEstado, "___________________________");
+
 
             ConfigurarPlaceholder(TxtIdCliente, "Insira o cpf do cliente.");
             ConfigurarPlaceholder(TxtMarcaCarro, "Digite a marca do carro.");
             ConfigurarPlaceholder(TxtModeloCarro, "Digite o modelo do carro.");
             ConfigurarPlaceholder(TxtPlacaCarro, "Digite a placa do carro.");
             ConfigurarPlaceholder(TxtDescricaoProblema, "Digite o problema do carro.");
-            ConfigurarPlaceholder(LinhaIdCarro, "___________________________");
-            ConfigurarPlaceholder(linhaMarca, "___________________________");
-            ConfigurarPlaceholder(linhaModelo, "___________________________");
-            ConfigurarPlaceholder(linhaPlaca, "___________________________");
+
         }
 
         // ==========================

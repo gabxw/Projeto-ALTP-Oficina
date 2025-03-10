@@ -103,6 +103,16 @@ namespace SAZUDA.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_manutenção_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-manutenção-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_pesquisar_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-pesquisar-32", resourceCulture);
@@ -116,6 +126,26 @@ namespace SAZUDA.Properties {
         internal static System.Drawing.Bitmap icons8_plus_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-plus-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_tools_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-tools-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_tools_321 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-tools-321", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

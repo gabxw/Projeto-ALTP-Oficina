@@ -95,8 +95,8 @@ namespace SAZUDA
                 }
                 catch (Exception ex)
                 {
-                   // MessageBox.Show("Erro ao carregar demandas: " + ex.Message,
-                                  //  "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    // MessageBox.Show("Erro ao carregar demandas: " + ex.Message,
+                    //  "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -415,5 +415,63 @@ namespace SAZUDA
         {
 
         }
+
+
+        private void txtValorAceite_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPrazoAceite_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelRecusa_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtMotivoRecusa_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
