@@ -400,5 +400,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 
-*.Designer.cs
-*.resx
+
+
+!SAZUDA/MecanicoControl.Designer.cs
+!SAZUDA/MecanicoControl.resx
